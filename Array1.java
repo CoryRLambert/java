@@ -1,31 +1,39 @@
-import java.util.arrays;
+import java.util.Arrays;
 class Array1 {
-		public static void main (string a[]){
+		public static void main (String a[]){
 				int i;
-				int[] ia ;ia = new  int[21];
-						ia[0] = -2;
-						ia[1] =  0;
-						ia[2] = -1;
-						ia[3] =  1;
-						ia[4] =  0;
-						ia[5] =  1;
-						ia[6] = -1;
-						ia[7] =  1;
-						ia[8] = -1;
-						ia[9] =  0;
-						ia[10] =  1;
-						ia[11] = -2;
-						System.out.println("array unsorted\a);
-						for (i = 0; i <=11; i++){
+				int[] ia ;ia = new  int[20];
+						ia[0] = -4;
+						ia[1] =  5;
+						ia[2] =  3;
+						ia[3] = -1;
+						ia[4] =  1;
+						ia[5] = -8;
+						ia[6] =  9;
+						ia[7] =  4;
+						ia[8] = -7;
+						ia[9] = -2;
+						ia[10] = 7;
+						ia[11] = 6;
+						ia[12] =-3;
+						ia[13] = 2;
+						ia[14] =-9;
+						ia[15] =-6;
+						ia[16] = 0;
+						ia[17] = 8;
+						ia[18] =-5;
+						ia[19] =10;
+						System.out.println("array unsorted\n");
+						for (i = 0; i <=19; i++){
 								System.out.print(ia[i]+"  ");
 						}
-						Arrays.sort(ia)
+						Arrays.sort(ia);
 						
-						System.out.println("array unsorted\a);
+						System.out.println("\nArray sorted\n");
 						
-						for (i = 0; i <=11; i++){
+						for (i = 0; i <=19; i++){
 								System.out.print(ia[i]+"  ");
 						}
-						system.out.println();
+						System.out.println();
 				}
 	}
