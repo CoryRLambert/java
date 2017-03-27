@@ -18,7 +18,7 @@ class TrigTableDegTime {
 		System.out.println("----------------------------------------------------------------------" );
 		// 9 223 372 036 854 775 807   18446744073709551614
 		// compile then change 2147483648 to 2147483647
-		while (d <=  2147483647){
+		while (d <=  360){
 			//convert angle t to radians r
 			r = d * (pi/180.0);
 			c = Math.cos(r);
