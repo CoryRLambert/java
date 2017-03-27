@@ -53,32 +53,3 @@ class TrigTableDegTime {
 		
 	}
 }
-
-
-/*
-Compile.
-Change  (d <=  2147483648) by changing the 10^0 place value to 7
-Compile and run and make sure it works.
-Type control+c then remark the lines that output to the console.
-
-if (c == 0.0)
-				{// System.out.println("\t"+d+ "\t|\t"+ c +"\t|\t"+ s + "\t|\t UN ");  
-				}else{
-				 // System.out.println("\t"+d+ "\t|\t"+ c +"\t|\t"+ s + "\t|\t" + t);
-				}
-
-Stop the
-Let the program run.
-
-Save and record the output.
-
-********************************
-BEFORE LOOP			#############
-AFTER LOOP			#############
-
-*******************************
-Do the math.
-
-How many minutes does this take?
-
-*/
